@@ -82,7 +82,7 @@ void changeRecord(fstream &history) {
 	cout << "What year would you like to modify the event and population of? (1950 - 2020)\n";//tells the user the limits
 
 	whatYear = valid();
-
+	    
 	//go to year display population and event
 	offSet = inMemory(whatYear);
 	history.seekg(offSet, ios::beg); 
