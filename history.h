@@ -1,6 +1,14 @@
 #pragma once
 #include <iostream>
 #include <fstream>
+#include <string>
+#include <iomanip>
+
+/**********************************************
+ *  Name: Troy Breeden
+ *  File Name: history.h
+ *  Description: holds prototypes and structs
+ **********************************************/
 
 using namespace std; 
 
